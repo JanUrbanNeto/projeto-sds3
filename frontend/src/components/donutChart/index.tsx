@@ -5,8 +5,8 @@ import { SaleSum } from "types/Sale";
 import { BASE_URL } from "utils/request";
 
 type ChartData = {
-   labels: string[],
-   series: number[]
+   labels: string[];
+   series: number[];
 }
 
 const DonutChart = () => {
