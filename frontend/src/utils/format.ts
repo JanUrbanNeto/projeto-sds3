@@ -10,3 +10,5 @@ export const formatLocalDate = (date: string, pattern: string) => {
    const dtDateOnly = new Date(dt.valueOf() + dt.getTimezoneOffset() * 60 * 1000);
    return format(dtDateOnly, pattern);
 }
+
+/*  comentário para ultimo git */
